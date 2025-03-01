@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Task</title>
+</head>
+<body>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Course Module-2020</a>
+        <a href="">Class Schedule</a>
+        <a href="">Success Story</a>
+        <a href="">Attendence</a>
+        <a href="">FAQ</a>
+        <a href="">Login</a>
+    </nav>
+    <h2 style="color: orange;">Student Registration Form</h2>
+    <hr>
+    <p style="font-size: smaller; font-weight: 200;">Mandatory Field*</p>
+    <div>
+        <label for="District">District</label>
+    <select name="" id="District">
+        <option value="" selected disabled>--Select One--</option>
+        <option value="Dhaka">Dhaka</option>
+        <option value="NaraynGonj">NaraynGonj</option>        
+        <option value="Bogra">Bogra</option>        
+        <option value="Gazipur">Gazipur</option>        
+        <option value="MymenSing">MymenSing</option>        
+        <option value="Naogaon">Naogaon</option>        
+        <option value="Faridpur">Faridpur</option>        
+        <option value="Gopalganj">Gopalganj</option>        
+        <option value="JamalPur">JamalPur</option>        
+        <option value="Kishoreganj">Kishoreganj</option>          
+    </select>
+    </div>
+    <div>
+        <label for="Course">Course*</label>
+    <select name="" id="Course">
+        <option value="" selected disabled>--Select One--</option>
+        <option value="Web Design and Development- 2020">Web Design and Development- 2020</option>
+        <option value="Graphic Design- 2020">Graphic Design- 2020</option>
+        <option value="Digital Marketing">Digital Marketing</option>
+    </select>
+    </div>
+    <br>
+    <div>
+        <label for="Student-Name">Student Name*</label><br>
+    <input type="text" id="Student-Name" placeholder="Type Name"><br>
+    <label for="Father-Name">Father Name*</label><br>
+    <input type="text" id="Father-Name" placeholder="Type Name"><br>
+    <label for="Mother-Name">Mother Name*</label><br>
+    <input type="text" id="Mother-Name" placeholder="Type Name">
+    </div>
+    <br>
+    <fieldset>
+        <legend> Date of Birth*</legend>
+        <label for="Day">Date:</label>
+        <input type="date" name="" id="Day">
+    </fieldset>
+    <br>
+    <div>
+        <label for="">Gender: </label>
+    <input type="radio" id="Male" name="Gender">
+    <label for="Male"><b>Male</b></label>
+    <input type="radio" id="Female" name="Gender">
+    <label for="Female"><b>Female</b></label>
+    </div>
+    <div>
+        <label for="">Physically Handicapped: </label>
+    <input type="radio" id="Yes" name="YN">
+    <label for="Yes"><b>Yes</b></label>
+    <input type="radio" id="No" name="YN">
+    <label for="No"><b>No</b></label>
+    </div>
+    <br>
+    <div>
+        <label for="email">Email*</label><br>
+        <input type="email" id="email" placeholder="Example@mail.com"><br>
+        <label for="Phone">Phone(Must be 11 Digits)*</label><br>
+        <input type="tel" id="Phone" placeholder="01578963140">
+    </div><br>
+    <div>
+        <label for="Identy">Identification Type*</label>
+        <select name="" id="Identy">
+            <option value="" selected disabled>Select One</option>
+            <option value="BirthCertificate No.">BirthCertificate No.</option>
+            <option value="NID">NID</option>
+        </select>
+    </div><br>
+    <div>
+        <label for="Id No.">Identification No. (Must be 10 digits for new NID or 17 digits for old NID. If your National ID is 13 digits, then please add your birth year with the ID as prefix. Example: 1980XXXXXXXXXXXXX)*</label><br>
+        <input type="number" id="Id No.">
+    </div>
+    <label for="Home-District">Home District</label>
+    <select name="" id="Home-District">
+        <option value="" selected disabled>--Select One--</option>
+        <option value="Dhaka">Dhaka</option>
+        <option value="NaraynGonj">NaraynGonj</option>        
+        <option value="Bogra">Bogra</option>        
+        <option value="Gazipur">Gazipur</option>        
+        <option value="MymenSing">MymenSing</option>        
+        <option value="Naogaon">Naogaon</option>        
+        <option value="Faridpur">Faridpur</option>        
+        <option value="Gopalganj">Gopalganj</option>        
+        <option value="JamalPur">JamalPur</option>        
+        <option value="Kishoreganj">Kishoreganj</option> 
+    </select><br>
+    <label for="Upazilla">Upazilla*</label>
+    <select name="" id="Upazilla">
+        <option value="Dhaka">Banani</option>
+        <option value="NaraynGonj">Kahalu</option>        
+        <option value="Bogra">Demra</option>        
+        <option value="Gazipur">Savar</option>        
+        <option value="MymenSing">Indo</option>        
+        <option value="Naogaon">Jhalukathi</option>        
+        <option value="Faridpur">Mohakhali</option>        
+        <option value="Gopalganj">Uttara</option>        
+        <option value="JamalPur">Gabtoli</option>        
+        <option value="Kishoreganj">ShahJahanpur</option> 
+    </select><br>
+    <label for="Vill">Village/House No./Road No./Other Alternative*</label>
+    <input type="text" id="Vill"><br>
+    <label for="Post">Post Office*</label>
+    <input type="text" id="Post"><br>
+    <label for="Level">Educational Qualification* (Higher Level)</label><br>
+    <select name="" id="Level"><
+        <option value="" selected disabled>--Select One--</option>
+        <option value="HSC">Higher Secondary/ Equavalent</option>
+        <option value="Bacherlors">Bachelors</option>
+        <option value="Masters">Masters</option>
+        <option value="PHD">PHD</option>
+    </select><br><br>
+    <label for="">Have any Computer</label>
+    <input type="radio" name="Com" id="Yes">
+    <label for="Yes"><b>Yes<b></label>
+    <input type="radio" name="Com" id="No">
+    <label for="No"><b>No</b></label><br><br>
+    <label for="Photo">PhotoGraph*</label>
+    <input type="file" id="Photo"><br><br>
+    <label for="Sign">Signature</label>
+    <input type="file" id="Sign"><br><br>
+    <input type="submit">
+</body>
+</html>
